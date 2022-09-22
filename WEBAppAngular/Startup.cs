@@ -36,6 +36,7 @@ namespace WEBAppAngular
             {
                 app.UseDeveloperExceptionPage();
             }
+            
             else
             {
                 app.UseExceptionHandler("/Error");
